@@ -1,0 +1,4 @@
+#kill old manuals
+clear @a minecraft:written_book{title:"MxSxC1 Lava Pack"}
+#new manual
+give @a written_book{pages:['{"text":"MxSxC1 Lava Pack\\n\\nClick the text within the page to run function\\n\\nBACK YOUR MAP UP FIRST\\n\\nThe Dark Is A Cold Lonely Shadow"}','{"text":"mxlava:man\\n\\nGive all players this manual","clickEvent":{"action":"run_command","value":"/function mxlava:man"}}','{"text":"mxlava:lavahelm\\n\\nGive player Lava Bane Helm.\\n\\nThis will remove lava around player.","clickEvent":{"action":"run_command","value":"/function mxlava:lavahelm"}}','{"text":"The Dark Is A Cold Lonely Shadow","color":"dark_green"}','{"text":"The Dark Is A Cold Lonely Shadow"}'],title:"MxSxC1 Lava Pack",author:"www.miscreat.co.uk",display:{Lore:["MxSxC1 Lava Pack"]},Enchantments:[{}]}
